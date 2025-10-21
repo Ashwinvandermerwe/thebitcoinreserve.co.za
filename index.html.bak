@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Bitcoin Domain For Sale</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="bitcoin-icon">₿</div>
+                <h2>Premium Domain For Sale</h2>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h2 class="domain-name">bitcointrust<span>.co.za</span></h2>
+            <p class="tagline">A premium domain for your Bitcoin or cryptocurrency business</p>
+            <a href="#contact" class="cta-button">Inquire Now</a>
+        </div>
+    </section>
+    
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why This Domain?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">★</div>
+                    <h3 class="feature-title">Premium Quality</h3>
+                    <p>A memorable, concise domain name that instantly communicates your Bitcoin business.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Build Trust</h3>
+                    <p>Establish credibility with a professional domain that resonates with crypto enthusiasts.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📈</div>
+                    <h3 class="feature-title">Investment Value</h3>
+                    <p>As cryptocurrency adoption grows, so does the value of Bitcoin-related digital real estate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="2c5f70ce-7ec4-4979-a880-093c626796a3">
+                <input type="hidden" name="subject" value="New Inquiry from bitcointrust.co.za">
+                
+                <div id="form-messages"></div>
+                
+                <div class="form-group">
+                    <label for="name">Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submit-btn">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bitcoin Domain Sales. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
